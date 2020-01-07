@@ -99,14 +99,6 @@ nav a:hover {
     position: relative;
 }
 
-/* .nav-toggle-label-close-45 span {
-    transform: rotate(45deg);
-}
-
-.nav-toggle-label-close-neg45 span {
-    transform: rotate(-45deg);
-} */
-
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     content: '';
@@ -152,9 +144,12 @@ nav a:hover {
     transition: transform 250ms ease-in-out;
 }
 
-/* temp */
-.nav-toggle:checked ~ .nav-toggle-label-close-45,
-.nav-toggle:checked ~ .nav-toggle-label-close-neg45 {
-    display: none;
+.nav-toggle:checked ~ .nav-toggle-label-close-45 {
+    transform: rotate(45deg);
+    transition: transform 250ms ease-in-out 280ms;
 }
 
+.nav-toggle:checked ~ .nav-toggle-label-close-neg45 {
+    transform: rotate(-45deg) translateY(-2px) translateX(6px);
+    transition: transform 250ms ease-in-out 280ms;
+}
