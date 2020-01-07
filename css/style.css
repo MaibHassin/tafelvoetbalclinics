@@ -105,6 +105,12 @@ nav a:hover {
     position: absolute;
 }
 
+.nav-toggle-label-close-45 span,
+.nav-toggle-label-close-neg45 span {
+    transform: rotate(0deg);
+    transition: transform 250ms ease-in-out;
+}
+
 .nav-toggle-label span {
     opacity: 1;
     transition: opacity 350ms ease-in-out;
@@ -112,12 +118,12 @@ nav a:hover {
 
 .nav-toggle-label span::before {
     transform: translateY(-9px);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out 250ms;
 }
 
 .nav-toggle-label span::after {
     transform: translateY(9px);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out 250ms;
 }
 
 .nav-toggle:checked ~ nav {
@@ -144,12 +150,12 @@ nav a:hover {
     transition: transform 250ms ease-in-out;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label-close-45 {
+.nav-toggle:checked ~ .nav-toggle-label-close-45 span{
     transform: rotate(45deg);
     transition: transform 250ms ease-in-out 280ms;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label-close-neg45 {
-    transform: rotate(-45deg) translateY(-2px) translateX(6px);
+.nav-toggle:checked ~ .nav-toggle-label-close-neg45 span {
+    transform: rotate(-45deg);
     transition: transform 250ms ease-in-out 280ms;
 }
