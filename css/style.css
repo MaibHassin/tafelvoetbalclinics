@@ -102,11 +102,11 @@ nav a:hover {
 }
 
 .nav-toggle-label span::before {
-    bottom: 7px;
+    bottom: 9px;
 }
 
 .nav-toggle-label span::after {
-    top: 7px;
+    top: 9px;
 }
 
 .nav-toggle:checked ~ nav {
