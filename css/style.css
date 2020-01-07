@@ -1,5 +1,12 @@
 :root {
+    /* colors */
     --bg-color: rgba(69,168,95,0.75);
+    --primary-font-color: #fff;
+    --secondary-font-color: #000;
+
+    /* fonts */
+    --logo-font: 'Fredoka One', cursive;
+    --primary-font: 'Roboto', sans-serif;
 }
 
 *, 
@@ -10,6 +17,7 @@
 
 body {
     margin: 0;
+    font-family: var(--primary-font);
 }
 
 /* nav menu */
@@ -20,6 +28,10 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10;
+}
+
+header .logo {
+    font-family: var(--logo-font);
 }
 
 nav {
@@ -46,7 +58,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: var(--primary-font-color);
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -55,7 +67,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #000
+    color: var(--secondary-font-color);
 }
 
 .nav-toggle {
