@@ -74,7 +74,9 @@ nav a:hover {
     display: none;
 }
 
-.nav-toggle-label {
+.nav-toggle-label,
+.nav-toggle-label-close-45,
+.nav-toggle-label-close-neg45 {
     position: absolute;
     top: 0;
     left: 0;
@@ -86,14 +88,24 @@ nav a:hover {
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
-.nav-toggle-label span::after {
+.nav-toggle-label span::after,
+.nav-toggle-label-close-45 span,
+.nav-toggle-label-close-neg45 span {
     display: block;
     background: #fff;
-    height: 2px;
+    height: 4px;
     width: 2em;
-    border-radius: 2px;
+    border-radius: 4px;
     position: relative;
 }
+
+/* .nav-toggle-label-close-45 span {
+    transform: rotate(45deg);
+}
+
+.nav-toggle-label-close-neg45 span {
+    transform: rotate(-45deg);
+} */
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -101,12 +113,19 @@ nav a:hover {
     position: absolute;
 }
 
+.nav-toggle-label span {
+    opacity: 1;
+    transition: opacity 350ms ease-in-out;
+}
+
 .nav-toggle-label span::before {
-    bottom: 9px;
+    transform: translateY(-9px);
+    transition: transform 250ms ease-in-out;
 }
 
 .nav-toggle-label span::after {
-    top: 9px;
+    transform: translateY(9px);
+    transition: transform 250ms ease-in-out;
 }
 
 .nav-toggle:checked ~ nav {
@@ -117,3 +136,25 @@ nav a:hover {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
+
+.nav-toggle:checked ~ .nav-toggle-label span {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out 270ms;
+}
+
+.nav-toggle:checked ~ .nav-toggle-label span::before {
+    transform: translateY(0px);
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-toggle:checked ~ .nav-toggle-label span::after {
+    transform: translateY(0px);
+    transition: transform 250ms ease-in-out;
+}
+
+/* temp */
+.nav-toggle:checked ~ .nav-toggle-label-close-45,
+.nav-toggle:checked ~ .nav-toggle-label-close-neg45 {
+    display: none;
+}
+
