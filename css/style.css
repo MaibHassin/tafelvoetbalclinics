@@ -234,4 +234,17 @@ main section .article-heading {
     padding: 1em 0em;
 }
 
-/* WIE ZIJN WIJ? */
+/* Referenties */
+
+#referenties .ref-img img {
+    width: 90%;
+    height: auto;
+}
+
+#referenties .ref-img img {
+    padding: 50px 0;
+}
+
+#referenties {
+    height: auto;
+}
