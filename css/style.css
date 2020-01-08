@@ -206,3 +206,8 @@ nav a:hover {
     padding: 1em 6.5em;
     border-radius: 10px;
 }
+
+#home .learn-more-button:active {
+    background-color: var(--bg-color);
+    color: var(--primary-font-color);
+}
