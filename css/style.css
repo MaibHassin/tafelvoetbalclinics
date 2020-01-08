@@ -211,3 +211,26 @@ nav a:hover {
     background-color: var(--bg-color);
     color: var(--primary-font-color);
 }
+
+/* sections */
+main section {
+    height: calc(100vh - 81.75px);
+}
+
+main section article {
+    padding: 25px;
+}
+
+main section .article-heading {
+    color: var(--section-title-color);
+}
+
+
+.section-heading {
+    color: var(--primary-font-color);
+    background-color: var(--bg-color);
+    text-align: center;
+    padding: 1em 0em;
+}
+
+/* WIE ZIJN WIJ? */
