@@ -226,8 +226,7 @@ nav a:hover {
 
 /* sections */
 main section {
-    padding-top: 61.875px;
-    height: calc(100vh - 81.875px);
+    min-height: 100vh;
 }
 
 main section article {
