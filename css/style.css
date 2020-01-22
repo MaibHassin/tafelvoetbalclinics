@@ -10,7 +10,7 @@
     --hamburger-icon-close-color: rgb(255, 0, 0);
 
     /* fonts */
-    --logo-font: 'Fredoka One', cursive;
+    --logo-font: 'Teko', sans-serif;
     --primary-font: 'Roboto', sans-serif;
 }
 
@@ -56,6 +56,11 @@ header {
 
 header .logo {
     font-family: var(--logo-font);
+    color: #fff;
+    margin: 0;
+    /* margin-left: 5px; */
+    text-align: center;
+    padding-top: 16px;
 }
 
 nav {
@@ -101,7 +106,7 @@ nav a:hover {
 .nav-toggle-label-close-45,
 .nav-toggle-label-close-neg45 {
     position: fixed;
-    top: 1.5em;
+    top: 2em;
     left: -5px;
     margin-left: 1em;
     height: 100%;
