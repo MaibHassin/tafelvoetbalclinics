@@ -6,6 +6,8 @@
     --secondary-font-color: #000;
     --section-title-color: rgba(69,168,95,0.85);
     --back-to-top-color: #ff2b44;
+    --hamburger-icon-color: rgb(22, 25, 194);
+    --hamburger-icon-close-color: rgb(255, 0, 0);
 
     /* fonts */
     --logo-font: 'Fredoka One', cursive;
@@ -111,11 +113,11 @@ nav a:hover {
 .nav-toggle-label-close-45 span,
 .nav-toggle-label-close-neg45 span {
     display: block;
-    background: #fff;
     height: 4px;
     width: 2em;
     border-radius: 4px;
     position: relative;
+    background-color: var(--hamburger-icon-color);
 }
 
 .nav-toggle-label span::before,
@@ -170,6 +172,7 @@ nav a:hover {
 }
 
 .nav-toggle:checked ~ .nav-toggle-label-close-45 span{
+    background-color: var(--hamburger-icon-close-color);
     transform: rotate(45deg);
     transition: transform 250ms ease-in-out 280ms;
 }
@@ -177,6 +180,11 @@ nav a:hover {
 .nav-toggle:checked ~ .nav-toggle-label-close-neg45 span {
     transform: rotate(-45deg);
     transition: transform 250ms ease-in-out 280ms;
+}
+
+.nav-toggle:checked ~ .nav-toggle-label-close-45 span,
+.nav-toggle:checked ~ .nav-toggle-label-close-neg45 span {
+    background-color: var(--hamburger-icon-close-color);
 }
 
 /* Home Page */
