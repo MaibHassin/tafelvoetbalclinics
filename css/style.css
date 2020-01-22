@@ -46,8 +46,8 @@ h2 {
 header {
     background: var(--bg-color);
     text-align: center;
-    position: fixed;
     width: 100%;
+    height: 80px;
     z-index: 10;
     top: 0;
 }
@@ -57,9 +57,8 @@ header .logo {
 }
 
 nav {
-    position: absolute;
+    /* position: absolute; */
     text-align: left;
-    top: 100%;
     left: 0;
     background: var(--bg-color);
     width: 100%;
@@ -99,13 +98,11 @@ nav a:hover {
 .nav-toggle-label,
 .nav-toggle-label-close-45,
 .nav-toggle-label-close-neg45 {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
+    top: 1.5em;
+    left: -5px;
     margin-left: 1em;
     height: 100%;
-    display: flex;
-    align-items: center;
 }
 
 .nav-toggle-label span,
@@ -185,9 +182,7 @@ nav a:hover {
 /* Home Page */
 
 #home {
-    /* height: calc(100vh - 80px); */
     min-height: 100vh;
-    margin-top: 80px;
 }
 
 #home figure {
