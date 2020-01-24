@@ -1,10 +1,10 @@
 :root {
     /* colors */
-    --bg-color: rgba(69,168,95,0.90);
+    --bg-color: rgba(69, 168, 95, 0.90);
     --bg-secondary-color: rgb(255, 255, 255);
     --primary-font-color: #fff;
     --secondary-font-color: #000;
-    --section-title-color: rgba(69,168,95,0.85);
+    --section-title-color: rgba(69, 168, 95, 0.85);
     --back-to-top-color: #ff2b44;
     --hamburger-icon-color: rgb(22, 25, 194);
     --hamburger-icon-close-color: rgb(255, 0, 0);
@@ -14,7 +14,7 @@
     --primary-font: 'Roboto', sans-serif;
 }
 
-*, 
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -23,13 +23,13 @@
 /* hide arrows in number field */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance:textfield;
+    -moz-appearance: textfield;
 }
 
 body {
@@ -69,7 +69,7 @@ nav {
     padding-top: 60px;
     background: var(--bg-color);
     width: 100%;
-    transform: scale(1,0);
+    transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
 }
@@ -152,43 +152,43 @@ nav a:hover {
     transition: transform 250ms ease-in-out 250ms;
 }
 
-.nav-toggle:checked ~ nav {
-    transform: scale(1,1);
+.nav-toggle:checked~nav {
+    transform: scale(1, 1);
 }
 
-.nav-toggle:checked ~ nav a {
+.nav-toggle:checked~nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label span {
+.nav-toggle:checked~.nav-toggle-label span {
     opacity: 0;
     transition: opacity 250ms ease-in-out 270ms;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label span::before {
+.nav-toggle:checked~.nav-toggle-label span::before {
     transform: translateY(0px);
     transition: transform 250ms ease-in-out;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label span::after {
+.nav-toggle:checked~.nav-toggle-label span::after {
     transform: translateY(0px);
     transition: transform 250ms ease-in-out;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label-close-45 span{
+.nav-toggle:checked~.nav-toggle-label-close-45 span {
     background-color: var(--hamburger-icon-close-color);
     transform: rotate(45deg);
     transition: transform 250ms ease-in-out 280ms;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label-close-neg45 span {
+.nav-toggle:checked~.nav-toggle-label-close-neg45 span {
     transform: rotate(-45deg);
     transition: transform 250ms ease-in-out 280ms;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label-close-45 span,
-.nav-toggle:checked ~ .nav-toggle-label-close-neg45 span {
+.nav-toggle:checked~.nav-toggle-label-close-45 span,
+.nav-toggle:checked~.nav-toggle-label-close-neg45 span {
     background-color: var(--hamburger-icon-close-color);
 }
 
@@ -268,6 +268,66 @@ main section .article-heading {
 
 #referenties {
     height: auto;
+}
+
+/* Contact */
+#contact {
+    background: var(--bg-color);
+    color: var(--primary-font-color);
+    padding-bottom: 1.5em;
+}
+
+#contact form {
+    padding: 0 10%;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#contact input {
+    height: 2em;
+    font-size: 1.5em;
+    margin: 5px auto;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact input[type='submit'] {
+    color: var(--primary-font-color);
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-secondary-color);
+    margin-top: 1.5em;
+}
+
+#contact .socials{
+    text-align: center;
+}
+
+#contact .socials a {
+    color: var(--primary-font-color);
+    padding: 0 0.5em;
+}
+
+#contact .contact-info {
+    padding: 1em 20%;
+}
+
+#contact .contact-info a {
+    color: rgb(255, 255, 255); /*later will be used as dark color for contrast*/
+    padding-left: 1em;
+    margin-top: 0.5em;
+}
+
+.contact-form-seperator {
+    margin-top: 2em;
+    width: 80%;
+    border: 2px solid;
 }
 
 /* back to top button */
