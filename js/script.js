@@ -59,5 +59,7 @@ $('a[href*="#"]')
 
   // close navmenu when clicked
   $("a").click(function(){
-    alert("The link was clicked.");
+    if(document.getElementById("nav-toggle").checked){
+      document.getElementById("nav-toggle").checked = false;
+    }
   });
