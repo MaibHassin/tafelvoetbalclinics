@@ -349,3 +349,12 @@ main section .article-heading {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* footer */
+
+footer {
+    background-color: rgb(6, 49, 25);
+    color: var(--primary-font-color);
+    padding: 1.5em;
+    text-align: center;
+}
