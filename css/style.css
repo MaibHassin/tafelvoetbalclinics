@@ -1,7 +1,7 @@
 :root {
     /* colors */
     --bg-color: rgba(69, 168, 95, 0.90);
-    --bg-secondary-color: rgb(255, 255, 255);
+    --bg-secondary-color: #ffffff;
     --primary-font-color: #fff;
     --secondary-font-color: #000;
     --section-title-color: rgba(69, 168, 95, 0.85);
@@ -222,15 +222,16 @@ nav a:hover {
 
 #home .learn-more-button {
     text-decoration: none;
+    background-color: var(--bg-color);
     margin: auto;
     border: 2px solid var(--section-title-color);
-    color: var(--section-title-color);
+    color: var(--primary-font-color);
     padding: 1em 6.5em;
     border-radius: 10px;
 }
 
 #home .learn-more-button:active {
-    background-color: var(--bg-color);
+    background-color: var(--bg-secondary-color);
     color: var(--primary-font-color);
 }
 
