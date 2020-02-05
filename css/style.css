@@ -6,8 +6,8 @@
     --secondary-font-color: #000;
     --section-title-color: rgba(69, 168, 95, 0.85);
     --back-to-top-color: #ff2b44;
-    --hamburger-icon-color: rgb(22, 25, 194);
-    --hamburger-icon-close-color: rgb(255, 0, 0);
+    --hamburger-icon-color: #fff;
+    --hamburger-icon-close-color: #fff;
 
     /* fonts */
     --logo-font: 'Teko', sans-serif;
@@ -105,7 +105,7 @@ nav a:hover {
 .nav-toggle-label,
 .nav-toggle-label-close-45,
 .nav-toggle-label-close-neg45 {
-    position: fixed;
+    position: absolute;
     top: 2em;
     left: -5px;
     margin-left: 1em;
