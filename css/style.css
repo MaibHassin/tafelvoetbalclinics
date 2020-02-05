@@ -5,7 +5,7 @@
     --primary-font-color: #fff;
     --secondary-font-color: #000;
     --section-title-color: rgba(69, 168, 95, 0.85);
-    --back-to-top-color: #ff2b44;
+    --back-to-top-color: rgba(255, 43, 68, 0.70);
     --hamburger-icon-color: #fff;
     --hamburger-icon-close-color: #fff;
 
@@ -334,19 +334,14 @@ main section .article-heading {
 
 .back-to-top {
     position: fixed;
-    bottom: 0;
+    bottom: -7px;
     right: 0.5em;
     z-index: 99;
 }
 
 .back-to-top a {
     text-decoration: none;
-    color: #fff;
-    background-color: var(--back-to-top-color);
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 20px 20px 0px 0px;
-    font-weight: bold;
+    color: var(--back-to-top-color);
     cursor: pointer;
 }
 
