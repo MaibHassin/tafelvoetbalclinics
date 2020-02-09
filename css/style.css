@@ -8,6 +8,9 @@
     --back-to-top-color: rgba(255, 43, 68, 0.70);
     --hamburger-icon-color: #fff;
     --hamburger-icon-close-color: #fff;
+    --package-1-card-color: rgb(22, 135, 163);
+    --package-2-card-color: rgb(33, 160, 16);
+    --package-3-card-color: rgb(161, 28, 28);
 
     /* fonts */
     --logo-font: 'Teko', sans-serif;
@@ -254,6 +257,39 @@ main section .article-heading {
     background-color: var(--bg-color);
     text-align: center;
     padding: 1em 0em;
+}
+
+/* Clinics */
+
+#clinics .package-card {
+    color: var(--primary-font-color);
+    text-align: center;
+    margin: 10px 40px;
+    padding: 40px 0;
+    padding-top: 0px;
+    min-height: 320px;
+}
+
+#clinics .package-card ul {
+    list-style: none;
+}
+
+#clinics .package-card h3 {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+}
+
+#clinics .package-1 {
+    background-color: var(--package-1-card-color);
+}
+
+#clinics .package-2 {
+    background-color: var(--package-2-card-color);
+}
+
+#clinics .package-3 {
+    background-color: var(--package-3-card-color);
 }
 
 /* Referenties */
