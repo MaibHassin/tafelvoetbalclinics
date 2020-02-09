@@ -365,7 +365,7 @@ main section .article-heading {
     margin-left: -20px;
     font-weight: bold;
     color: silver;
-    text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212,175,55,0);
+    text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212, 175, 55, 0);
 }
 
 #clinics .euro-symbol {
@@ -434,6 +434,7 @@ main section .article-heading {
     text-align: center;
     margin: 0;
 }
+
 
 /* Contact */
 #contact {
