@@ -416,12 +416,13 @@ main section .article-heading {
 /* Referenties */
 
 #referenties .ref-img img {
-    width: 65%;
     height: auto;
+    width: 50%;
 }
 
 #referenties figure {
     text-align: center;
+    margin: 0;
 }
 
 /* Contact */
