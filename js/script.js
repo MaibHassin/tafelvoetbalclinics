@@ -63,3 +63,9 @@ $('a[href*="#"]')
       document.getElementById("nav-toggle").checked = false;
     }
   });
+
+
+  // Copyright year
+  var date = new Date();
+  document.getElementById('copyright-year').innerHTML = date.getFullYear();
+  
