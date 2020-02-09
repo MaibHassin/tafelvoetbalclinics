@@ -277,7 +277,7 @@ main section .article-heading {
 }
 
 #clinics .package-card ul li:not(.package-addition) {
-    margin: 5px 0;
+    margin: 5px 10px;
     padding-left: 10%;
 }
 
@@ -349,6 +349,8 @@ main section .article-heading {
 
 .beat-the-pro {
     font-size: 1.4em;
+    margin-top: 10px;
+    margin-left: -25px;
     font-weight: bold;
     text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212,175,55,0);
 }
