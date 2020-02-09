@@ -425,6 +425,7 @@ main section .article-heading {
 #referenties .ref-img img {
     height: auto;
     width: 50%;
+    margin: 20px auto;
 }
 
 #referenties figure {
