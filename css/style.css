@@ -300,6 +300,10 @@ main section .article-heading {
     font-size: 3em;
 }
 
+#clinics .package-card .package-extra-info {
+    font-size: .75em;
+}
+
 #clinics .package-1 {
     background-color: var(--package-1-card-color);
 }
