@@ -8,9 +8,9 @@
     --back-to-top-color: rgba(255, 43, 68, 0.70);
     --hamburger-icon-color: #fff;
     --hamburger-icon-close-color: #fff;
-    --package-1-card-color: rgb(22, 135, 163);
-    --package-2-card-color: rgb(33, 160, 16);
-    --package-3-card-color: rgb(161, 28, 28);
+    --package-1-card-color: rgb(44, 124, 145);
+    --package-2-card-color: rgb(53, 158, 40);
+    --package-3-card-color: rgb(167, 41, 41);
 
     /* fonts */
     --logo-font: 'Teko', sans-serif;
@@ -276,8 +276,9 @@ main section .article-heading {
     padding-left: 70px;
 }
 
-#clinics .package-card ul li {
+#clinics .package-card ul li:not(.package-addition) {
     margin: 5px 0;
+    padding-left: 10%;
 }
 
 #clinics .package-card h3 {
@@ -302,6 +303,24 @@ main section .article-heading {
 
 #clinics .package-card .package-extra-info {
     font-size: .75em;
+}
+
+#clinics .package-card .package-1-addition {
+    color: #fff;
+    font-size: 1.25em;
+    background-color: var(--package-1-card-color);
+    padding: 10px 0;
+    margin-left: -70px;
+    text-align: center;
+}
+
+#clinics .package-card .package-2-addition {
+    color: #fff;
+    font-size: 1.25em;
+    background-color: var(--package-2-card-color);
+    padding: 10px 0;
+    margin-left: -70px;
+    text-align: center;
 }
 
 #clinics .package-1 {
