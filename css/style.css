@@ -372,6 +372,37 @@ main section .article-heading {
     padding: 15px;
 }
 
+/* Verhuur */
+
+#verhuur .tnl-brand-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#verhuur .tnl-brand-images figure {
+    margin: 0;
+    width: 30%;
+}
+
+#verhuur .tnl-brand-images figure img {
+    height: auto;
+    width: 80%;
+}
+
+#verhuur .tnl-external-link {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#verhuur a {
+    text-decoration: none;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 /* Referenties */
 
 #referenties .ref-img img {
