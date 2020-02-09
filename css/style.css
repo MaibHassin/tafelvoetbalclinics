@@ -480,6 +480,15 @@ main section .article-heading {
     margin-top: 0.5em;
 }
 
+#contact .map {
+    text-align: center;
+}
+
+#contact iframe {
+    height: auto;
+    width: 80%;
+}
+
 .contact-form-seperator {
     margin-top: 2em;
     width: 80%;
