@@ -347,6 +347,12 @@ main section .article-heading {
     color: var(--package-3-card-color);
 }
 
+.beat-the-pro {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212,175,55,0);
+}
+
 /* Referenties */
 
 #referenties .ref-img img {
@@ -397,7 +403,7 @@ main section .article-heading {
     margin-top: 1.5em;
 }
 
-#contact .socials{
+#contact .socials {
     text-align: center;
 }
 
@@ -411,7 +417,8 @@ main section .article-heading {
 }
 
 #contact .contact-info a {
-    color: rgb(255, 255, 255); /*later will be used as dark color for contrast*/
+    color: rgb(255, 255, 255);
+    /*later will be used as dark color for contrast*/
     padding-left: 1em;
     margin-top: 0.5em;
 }
