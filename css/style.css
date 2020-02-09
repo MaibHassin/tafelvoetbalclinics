@@ -272,6 +272,12 @@ main section .article-heading {
 
 #clinics .package-card ul {
     list-style: none;
+    text-align: left;
+    padding-left: 70px;
+}
+
+#clinics .package-card ul li {
+    margin: 5px 0;
 }
 
 #clinics .package-card h3 {
@@ -280,16 +286,42 @@ main section .article-heading {
     padding: 10px;
 }
 
+#clinics .package-card .prices {
+    background-color: var(--bg-secondary-color);
+    color: #000;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 100px;
+    padding: 32px 5px;
+}
+
+#clinics .package-card .package-price {
+    font-size: 3em;
+}
+
 #clinics .package-1 {
     background-color: var(--package-1-card-color);
+}
+
+.package-1 .package-price {
+    color: var(--package-1-card-color);
 }
 
 #clinics .package-2 {
     background-color: var(--package-2-card-color);
 }
 
+.package-2 .package-price {
+    color: var(--package-2-card-color);
+}
+
 #clinics .package-3 {
     background-color: var(--package-3-card-color);
+}
+
+.package-3 .package-price {
+    color: var(--package-3-card-color);
 }
 
 /* Referenties */
