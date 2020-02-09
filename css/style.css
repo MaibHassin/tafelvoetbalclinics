@@ -531,3 +531,43 @@ footer {
     padding: 1.5em;
     text-align: center;
 }
+
+/* Under construction page */
+.under-construction {
+    display: none;
+}
+
+/* FOR TABLETS */
+@media (min-width: 600px) {
+    main,
+    header,
+    #home {
+        display: none;
+    }
+
+    .under-construction {
+        display: block !important;
+        height: 100vh;
+        background-color: rgb(28, 116, 51);
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .under-construction p {
+        font-size: 2em;
+    }
+    
+    .under-construction h1 {
+        padding-top: 50%;
+    }
+
+    .under-construction a {
+        color: #fff;
+    }
+    
+}
