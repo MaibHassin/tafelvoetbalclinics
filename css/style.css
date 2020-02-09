@@ -384,21 +384,31 @@ main section .article-heading {
 
 /* Verhuur */
 
-#verhuur .tnl-brand-images {
+#verhuur .tnl-brands {
     display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
-#verhuur .tnl-brand-images figure {
+#verhuur .tnl-brands-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#verhuur .tnl-brands figure {
     margin: 0;
     width: 30%;
 }
 
-#verhuur .tnl-brand-images figure img {
+#verhuur .tnl-brands figure img {
     height: auto;
     width: 80%;
+    margin: 10px auto;
 }
+
+
 
 #verhuur .tnl-external-link {
     text-align: center;
