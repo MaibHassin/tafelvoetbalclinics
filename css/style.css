@@ -259,6 +259,16 @@ main section .article-heading {
     padding: 1em 0em;
 }
 
+/* Over mij */
+#overmij .article-heading {
+    text-align: center;
+}
+
+#overmij img {
+    height: auto;
+    width: 100%;
+}
+
 /* Clinics */
 
 #clinics .package-card {
