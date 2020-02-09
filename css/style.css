@@ -266,7 +266,7 @@ main section .article-heading {
     text-align: center;
     margin: 10px 40px;
     padding: 40px 0;
-    padding-top: 0px;
+    padding-bottom: 10px;
     min-height: 320px;
 }
 
@@ -274,6 +274,7 @@ main section .article-heading {
     list-style: none;
     text-align: left;
     padding-left: 70px;
+    padding-bottom: 35px;
 }
 
 #clinics .package-card ul li:not(.package-addition) {
@@ -303,6 +304,7 @@ main section .article-heading {
 
 #clinics .package-card .package-extra-info {
     font-size: .75em;
+    margin-top: 20px;
 }
 
 #clinics .package-card .package-1-addition {
@@ -347,12 +349,27 @@ main section .article-heading {
     color: var(--package-3-card-color);
 }
 
-.beat-the-pro {
+#clinics .beat-the-pro {
     font-size: 1.4em;
     margin-top: 10px;
-    margin-left: -25px;
+    margin-left: -20px;
     font-weight: bold;
+    color: silver;
     text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212,175,55,0);
+}
+
+#clinics .euro-symbol {
+    font-size: .5em;
+    vertical-align: super;
+}
+
+#clinics .buy-package-button {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-font-color);
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px;
+    padding: 15px;
 }
 
 /* Referenties */
