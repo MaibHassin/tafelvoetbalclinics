@@ -408,8 +408,6 @@ main section .article-heading {
     margin: 10px auto;
 }
 
-
-
 #verhuur .tnl-external-link {
     text-align: center;
     margin-top: 50px;
@@ -458,10 +456,14 @@ main section .article-heading {
     height: 2em;
     font-size: 1.5em;
     margin: 5px auto;
+    padding-left: 5px;
 }
 
 #contact textarea {
     resize: vertical;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 1.25em;
 }
 
 #contact input[type='submit'] {
