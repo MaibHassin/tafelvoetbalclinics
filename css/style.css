@@ -11,6 +11,7 @@
     --package-1-card-color: rgb(44, 124, 145);
     --package-2-card-color: rgb(53, 158, 40);
     --package-3-card-color: rgb(167, 41, 41);
+    --package-n-card-color: rgb(226, 146, 27);
 
     /* fonts */
     --logo-font: 'Teko', sans-serif;
@@ -280,7 +281,7 @@ main section .article-heading {
     margin: 10px 40px;
     padding: 40px 0;
     padding-bottom: 10px;
-    min-height: 320px;
+    min-height: 450px;
 }
 
 #clinics .package-card ul {
@@ -353,6 +354,20 @@ main section .article-heading {
     color: var(--package-3-card-color);
 }
 
+#clinics .package-n {
+    background-color: var(--package-n-card-color);
+}
+
+.package-n .package-price {
+    color: var(--package-n-card-color);
+}
+
+.package-n p {
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
 #clinics .beat-the-pro {
     font-size: 1.4em;
     margin-top: 10px;
@@ -377,10 +392,6 @@ main section .article-heading {
     border: 1px solid rgb(148, 148, 148);
     transform: scale(0);
     transition: transform 250ms ease-in-out;
-}
-
-#clinics .btp-tooltip {
-    font-size: 1.25em;
 }
 
 #clinics .btp-tooltip:active {
