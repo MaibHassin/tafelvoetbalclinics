@@ -133,3 +133,17 @@ $('a[href*="#"]')
     new TypeWriter(textElement, words, wait);
   }
   
+
+  // Beat the pro tooltip
+
+  $(document).ready(()=> {
+    // open popup
+    document.getElementById('btp-tooltip').onclick = () => {
+      document.getElementById('btp-popup').style.display = 'initial';
+    }
+
+    //close popup
+    document.getElementById('close-btp-popup').onclick = () => {
+      document.getElementById('btp-popup').style.display = 'none';
+    }
+  });
