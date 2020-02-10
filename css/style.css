@@ -329,15 +329,6 @@ main section .article-heading {
     text-align: center;
 }
 
-#clinics .package-card .package-2-addition {
-    color: #fff;
-    font-size: 1.25em;
-    background-color: var(--package-2-card-color);
-    padding: 10px 0;
-    margin-left: -70px;
-    text-align: center;
-}
-
 #clinics .package-1 {
     background-color: var(--package-1-card-color);
 }
