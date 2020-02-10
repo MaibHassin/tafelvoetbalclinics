@@ -268,6 +268,10 @@ main section .article-heading {
     width: 100%;
 }
 
+#overmij iframe {
+    height: 200px;
+}
+
 /* Clinics */
 
 #clinics .package-card {
