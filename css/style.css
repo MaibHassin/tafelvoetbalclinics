@@ -388,8 +388,20 @@ main section .article-heading {
     transition: transform 250ms ease-in-out;
 }
 
+#clinics .btp-tooltip {
+    font-size: 1.25em;
+}
+
+#clinics .btp-tooltip:active {
+    color: rgb(187, 57, 57);
+}
+
 #clinics .close-btp-popup {
     color: rgb(187, 57, 57);
+}
+
+#clinics .close-btp-popup:active {
+    color: #eee;
 }
 
 #clinics .popup-btp-heading {
