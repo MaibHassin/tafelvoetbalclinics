@@ -68,7 +68,7 @@ nav {
     text-align: left;
     top: 0;
     left: 0;
-    padding-top: 60px;
+    padding-bottom: 5px;
     background: var(--bg-color);
     width: 100%;
     transform: scale(1, 0);
