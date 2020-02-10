@@ -295,7 +295,7 @@ main section .article-heading {
     padding-left: 10%;
 }
 
-#clinics .package-card h3 {
+#clinics .package-heading {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     padding: 10px;
@@ -369,6 +369,33 @@ main section .article-heading {
     font-weight: bold;
     color: silver;
     text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212, 175, 55, 0);
+}
+
+#clinics .btp-popup {
+    position: fixed;
+    background: #fff;
+    top: 20%;
+    margin: auto;
+    right: 15%;
+    left: 15%;
+    text-align: center;
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.29);
+    border: 1px solid rgb(148, 148, 148);
+}
+
+#clinics .close-btp-popup {
+    color: rgb(187, 57, 57);
+}
+
+#clinics .popup-btp-heading {
+    color: var(--bg-color);
+}
+
+#clinics .popup-btp-text {
+    color: var(--bg-color);
 }
 
 #clinics .euro-symbol {
