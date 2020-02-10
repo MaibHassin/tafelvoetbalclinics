@@ -139,11 +139,11 @@ $('a[href*="#"]')
   $(document).ready(()=> {
     // open popup
     document.getElementById('btp-tooltip').onclick = () => {
-      document.getElementById('btp-popup').style.display = 'initial';
+      document.getElementById('btp-popup').style.transform = 'scale(1)';
     }
 
     //close popup
     document.getElementById('close-btp-popup').onclick = () => {
-      document.getElementById('btp-popup').style.display = 'none';
+      document.getElementById('btp-popup').style.transform = 'scale(0)';
     }
   });
