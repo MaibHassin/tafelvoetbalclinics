@@ -596,7 +596,7 @@ footer {
     display: inline;
 }
 
-.cookies-info-link {
+.cookies-info-link a {
     color: var(--bg-color);
     text-decoration: underline;
 }
