@@ -388,10 +388,10 @@ main section .article-heading {
     padding: 30px;
     padding-top: 15px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.29);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.29);
     border: 1px solid rgb(148, 148, 148);
     transform: scale(0);
-    transition: transform 250ms ease-in-out;
+    transition: transform 50ms ease-in-out;
 }
 
 #clinics .btp-tooltip:active {
@@ -579,6 +579,34 @@ footer {
     text-align: center;
 }
 
+/* Cookies Banner */
+
+.cookies-banner {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10;
+    padding: 10px 4px;
+    text-align: center;
+    color: #fff;
+}
+
+.cookies-banner-text,
+.cookies-info-link {
+    display: inline;
+}
+
+.cookies-info-link {
+    color: var(--bg-color);
+    text-decoration: underline;
+}
+
+.cookies-accept-button {
+    background-color: goldenrod;
+    padding: 5px;
+    border: none;
+}
+
 /* Under construction page */
 .under-construction {
     display: none;
@@ -586,6 +614,7 @@ footer {
 
 /* FOR TABLETS */
 @media (min-width: 600px) {
+
     main,
     header,
     #home {
@@ -604,11 +633,11 @@ footer {
         justify-content: center;
         text-align: center;
     }
-    
+
     .under-construction p {
         font-size: 2em;
     }
-    
+
     .under-construction h1 {
         padding-top: 300px;
     }
@@ -616,5 +645,5 @@ footer {
     .under-construction a {
         color: #fff;
     }
-    
+
 }
