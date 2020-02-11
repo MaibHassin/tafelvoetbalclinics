@@ -134,9 +134,14 @@ $('a[href*="#"]')
   }
   
 
-  // Beat the pro tooltip
-
+  
   $(document).ready(()=> {
+    // close cookies banner
+    document.getElementById('cookies-accept-button').onclick = () => {
+      document.getElementById('cookies-banner').style.transform = 'translateY(100px)';
+    }
+
+    // Beat the pro tooltip
     // open popup
     document.getElementById('btp-tooltip').onclick = () => {
       document.getElementById('btp-popup').style.transform = 'scale(1)';

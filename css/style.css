@@ -589,6 +589,7 @@ footer {
     padding: 10px 4px;
     text-align: center;
     color: #fff;
+    transition: transform 100ms ease-in-out;
 }
 
 .cookies-banner-text,
