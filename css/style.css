@@ -410,7 +410,8 @@ main section .article-heading {
     color: var(--package-n-card-color);
 }
 
-.package-n p {
+#clinics .package-n1-feature {
+    padding: 0 35px;
     text-align: justify;
 }
 
