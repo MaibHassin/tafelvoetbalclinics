@@ -144,11 +144,15 @@ $('a[href*="#"]')
     // Beat the pro tooltip
     // open popup
     document.getElementById('btp-tooltip').onclick = () => {
-      document.getElementById('btp-popup').style.transform = 'scale(1)';
+      document.getElementById('btp-popup-container').style.transform = 'scale(1)';
     }
 
     //close popup
     document.getElementById('close-btp-popup').onclick = () => {
-      document.getElementById('btp-popup').style.transform = 'scale(0)';
+      document.getElementById('btp-popup-container').style.transform = 'scale(0)';
+    }
+
+    document.getElementById('btp-popup-container').onclick = () => {
+      document.getElementById('btp-popup-container').style.transform = 'scale(0)'
     }
   });
