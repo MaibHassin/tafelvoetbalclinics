@@ -330,9 +330,27 @@ main section .article-heading {
 
 #clinics .package-card .package-1-addition {
     color: #fff;
-    font-size: 1.25em;
     background-color: var(--package-1-card-color);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
+
+#clinics .package-1-addition-extra {
+    font-size: 0.75em;
+    position: absolute;
+    left: 10px;
+}
+
+#clinics .package-1-addition-basis {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
 
 #clinics .package-1 {
     background-color: var(--package-1-card-color);
