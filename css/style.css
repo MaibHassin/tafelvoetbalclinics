@@ -22,6 +22,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    outline: none;
 }
 
 /* hide arrows in number field */
@@ -668,7 +669,17 @@ footer .other-links a{
 }
 
 /* FOR TABLETS */
-@media (min-width: 600px) {
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+@media (min-width: 576px) {
 
     main,
     header,
