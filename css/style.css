@@ -350,8 +350,6 @@ main section .article-heading {
     font-weight: bold;
 }
 
-
-
 #clinics .package-1 {
     background-color: var(--package-1-card-color);
 }
@@ -372,8 +370,36 @@ main section .article-heading {
     background-color: var(--package-3-card-color);
 }
 
+#clinics .package-3-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+}
+
+#clinics .beat-the-pro-feature-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#clinics .btp-tt-container {
+    position: absolute;
+    right: -30px;
+}
+
 .package-3 .package-price {
     color: var(--package-3-card-color);
+}
+
+#clinics .beat-the-pro {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: silver;
+    text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212, 175, 55, 0);
 }
 
 #clinics .package-n {
@@ -386,13 +412,6 @@ main section .article-heading {
 
 .package-n p {
     text-align: justify;
-}
-
-#clinics .beat-the-pro {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: silver;
-    text-shadow: 0 0 10px #FFF, 0 0 30px #49FF18, 5px 6px 1px rgba(212, 175, 55, 0);
 }
 
 #clinics .btp-popup {
@@ -409,7 +428,7 @@ main section .article-heading {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.29);
     border: 1px solid rgb(148, 148, 148);
     transform: scale(0);
-    transition: transform 50ms ease-in-out;
+    transition: transform 150ms ease-in-out;
 }
 
 #clinics .btp-tooltip:active {
