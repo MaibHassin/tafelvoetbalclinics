@@ -287,7 +287,11 @@ main section .article-heading {
 }
 
 #clinics .package-card ul {
-    list-style: none;
+    list-style: square;
+}
+
+#clinics .package-card ul li {
+    line-height: 25px;
 }
 
 #clinics .package-features {
