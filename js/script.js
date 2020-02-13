@@ -64,6 +64,13 @@ $('a[href*="#"]')
     }
   });
 
+  // close nav menu when clicked tap outside of navmenu
+  document.getElementById('home').onclick = () => {
+    if(document.getElementById("nav-toggle").checked){
+      document.getElementById("nav-toggle").checked = false;
+    }
+  }
+
 
   // Copyright year
   var date = new Date();
