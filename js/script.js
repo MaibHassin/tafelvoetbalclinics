@@ -162,4 +162,18 @@ $('a[href*="#"]')
     document.getElementById('btp-popup-container').onclick = () => {
       document.getElementById('btp-popup-container').style.transform = 'scale(0)'
     }
+
+    // Checkbox checked to add new form element
+    const buyOptionCheckbox = document.getElementById('buy-package-option');
+    buyOptionCheckbox.onchange = () => {
+      if(buyOptionCheckbox.checked) {
+        alert('checked');
+        // add form element
+      } else {
+        alert('unchecked');
+        // remove form element
+      }
+    }
   });
+
+

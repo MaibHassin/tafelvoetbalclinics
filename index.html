@@ -312,8 +312,20 @@
                 </div>
 
                 <div class="form-buy-option-container">
-                    <label for="buy-package-option">Een clinics deal kopen?</label>
-                    <input type="checkbox" name="clinics-deal" id="buy-package-option">
+                    <div class="buy-option">
+                        <label for="buy-package-option">Een clinics deal kopen?</label>
+                        <input type="checkbox" name="clinics-deal" id="buy-package-option">
+                    </div>
+                    <div class="select-option">
+                        <label for="selected-package">kies optie</label>
+                        <select name="geselecteerd pakket" id="selected-package" class="select-option-list">
+                            <option value="basis">Basis</option>
+                            <option value="uitgebried">Uitgebried</option>
+                            <option value="toernooi">Toernooi</option>
+                            <option value="disabled" class="disabled-option" disabled>Meer Opties</option>
+                            <option value="beat-the-pro">Beat The Pro</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div class="form-message-container">

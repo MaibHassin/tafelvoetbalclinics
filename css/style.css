@@ -541,23 +541,39 @@ main section .article-heading {
     padding: 0 10%;
 }
 
-#contact form .form-buy-option-container {
+#contact form .buy-option {
     display: flex;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
-#contact form .form-buy-option-container label {
+#contact form .buy-option label {
     flex: 2 1 0;
     font-weight: bold;
 }
 
-#contact form .form-buy-option-container input {
+#contact form .buy-option input {
     flex: 1 1 0;
     height: 1.25em;
 }
 
-#contact form .form-buy-option-container input:checked {
-    
+#contact form .select-option {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact form .select-option label {
+    font-weight: bold;
+}
+
+#contact form .select-option select {
+    background: #fff;
+    border: none;
+    font-size: 1.1em;
+}
+
+#contact form .select-option .disabled-option {
+    font-weight: bold;
 }
 
 #contact input,
