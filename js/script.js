@@ -167,11 +167,10 @@ $('a[href*="#"]')
     const buyOptionCheckbox = document.getElementById('buy-package-option');
     buyOptionCheckbox.onchange = () => {
       if(buyOptionCheckbox.checked) {
-        alert('checked');
-        // add form element
+        document.getElementById('selected-package').value = 'kies-optie';
+        document.getElementById('select-option').style.visibility = 'visible';
       } else {
-        alert('unchecked');
-        // remove form element
+        document.getElementById('select-option').style.visibility = 'hidden';
       }
     }
   });

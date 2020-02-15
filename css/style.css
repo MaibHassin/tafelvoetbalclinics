@@ -557,6 +557,7 @@ main section .article-heading {
 }
 
 #contact form .select-option {
+    visibility: hidden;
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
