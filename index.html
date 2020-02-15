@@ -291,23 +291,35 @@
         <section id="contact">
             <h2 class="section-heading">CONTACT</h2>
             <form action="https://formspree.io/xrgqyaqr" method="POST">
-                <label for="name">Naam<span class="form-required">*</span></label><br>
-                <input type="text" name="naam" id="name" required><br>
+                <div class="form-name-container">
+                    <label for="name">Naam<span class="form-required">*</span></label>
+                    <input type="text" name="naam" id="name" required>
+                </div>
 
-                <label for="email">Email<span class="form-required">*</span></label><br>
-                <input type="text" name="e-mail" id="email" required><br>
+                <div class="form-email-container">
+                    <label for="email">Email<span class="form-required">*</span></label>
+                    <input type="text" name="e-mail" id="email" required>
+                </div>
 
-                <label for="company">Bedrijf</label><br>
-                <input type="text" name="bedrijf" id="company"><br>
+                <div class="form-company-container">
+                    <label for="company">Bedrijf</label>
+                    <input type="text" name="bedrijf" id="company">
+                </div>
 
-                <label for="phone-number">Telefonenummer</label><br>
-                <input type="number" name="phone-nummer" id="phone-number"><br>
+                <div class="form-phone-container">
+                    <label for="phone-number">Telefonenummer</label>
+                    <input type="number" name="phone-nummer" id="phone-number">
+                </div>
 
-                <label for="buy-package-option">Een clinics deal kopen?</label>
-                <input type="checkbox" name="clinics-deal" id="buy-package-option">
+                <div class="form-buy-option-container">
+                    <label for="buy-package-option">Een clinics deal kopen?</label>
+                    <input type="checkbox" name="clinics-deal" id="buy-package-option">
+                </div>
 
-                <label for="message">Bericht</label><br>
-                <textarea name="bericht" id="message" cols="20" rows="10"></textarea><br>
+                <div class="form-message-container">
+                    <label for="message">Bericht</label>
+                    <textarea name="bericht" id="message" cols="20" rows="10"></textarea>
+                </div>
 
                 <input type="submit" value="VERSTUUR">
             </form>

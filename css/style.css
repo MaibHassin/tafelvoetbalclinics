@@ -541,6 +541,25 @@ main section .article-heading {
     padding: 0 10%;
 }
 
+#contact form .form-buy-option-container {
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact form .form-buy-option-container label {
+    flex: 2 1 0;
+    font-weight: bold;
+}
+
+#contact form .form-buy-option-container input {
+    flex: 1 1 0;
+    height: 1.25em;
+}
+
+#contact form .form-buy-option-container input:checked {
+    
+}
+
 #contact input,
 #contact textarea {
     width: 100%;
