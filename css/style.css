@@ -541,25 +541,25 @@ main section .article-heading {
     padding: 0 10%;
 }
 
+#contact form .contact-form-field:not(.form-message-container) {
+    padding-bottom: 10px;
+}
+
 #contact form .buy-option {
-    display: flex;
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 #contact form .buy-option label {
-    flex: 2 1 0;
     font-weight: bold;
 }
 
 #contact form .buy-option input {
-    flex: 1 1 0;
-    height: 1.25em;
+    width: initial;
 }
 
 #contact form .select-option {
-    visibility: hidden;
+    display: none;
     padding-bottom: 10px;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -596,13 +596,13 @@ main section .article-heading {
     padding-left: 5px;
     padding-top: 5px;
     font-size: 1.25em;
+    margin: 5px auto;
 }
 
 #contact input[type='submit'] {
     color: var(--primary-font-color);
     background-color: var(--bg-color);
     border: 1px solid var(--bg-secondary-color);
-    margin-top: 1.5em;
 }
 
 #contact .socials {
@@ -635,7 +635,6 @@ main section .article-heading {
 }
 
 .contact-form-seperator {
-    margin-top: 2em;
     width: 80%;
     border: 2px solid;
 }

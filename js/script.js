@@ -168,9 +168,9 @@ $('a[href*="#"]')
     buyOptionCheckbox.onchange = () => {
       if(buyOptionCheckbox.checked) {
         document.getElementById('selected-package').value = 'kies-optie';
-        document.getElementById('select-option').style.visibility = 'visible';
+        document.getElementById('select-option').style.display = 'flex';
       } else {
-        document.getElementById('select-option').style.visibility = 'hidden';
+        document.getElementById('select-option').style.display = 'none ';
       }
     }
   });
