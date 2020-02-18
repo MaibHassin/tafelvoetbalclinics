@@ -174,6 +174,7 @@ $('a[href*="#"]')
       }
     }
 
+    // terms and conditions
     const termsCheckbox = document.getElementById('terms');
     const sendButton = document.getElementById('send-button');
     termsCheckbox.onchange = () => {
