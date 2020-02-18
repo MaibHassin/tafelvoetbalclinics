@@ -553,9 +553,9 @@ main section .article-heading {
     font-weight: bold;
 }
 
-#contact form .buy-option input {
+/* #contact form .buy-option input {
     width: initial;
-}
+} */
 
 #contact form .select-option {
     display: none;
@@ -577,7 +577,11 @@ main section .article-heading {
     font-weight: bold;
 }
 
-#contact input,
+#contact form .form-terms-container a {
+    color: #fff;
+}
+
+#contact input:not([type='checkbox']),
 #contact textarea {
     width: 100%;
     border: none;
@@ -603,6 +607,12 @@ main section .article-heading {
     color: var(--primary-font-color);
     background-color: var(--bg-color);
     border: 1px solid var(--bg-secondary-color);
+}
+
+#contact input[type='submit']:disabled {
+    color: #ccc;
+    background-color: #333;
+    border: #333;
 }
 
 #contact .socials {

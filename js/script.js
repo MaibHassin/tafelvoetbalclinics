@@ -173,6 +173,16 @@ $('a[href*="#"]')
         document.getElementById('select-option').style.display = 'none ';
       }
     }
+
+    const termsCheckbox = document.getElementById('terms');
+    const sendButton = document.getElementById('send-button');
+    termsCheckbox.onchange = () => {
+      if(termsCheckbox.checked) {
+        sendButton.disabled = false;
+      } else {
+        sendButton.disabled = true;
+      }
+    }
   });
 
 
