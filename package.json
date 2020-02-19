@@ -1,0 +1,39 @@
+{
+  "name": "5.tafelvoetbalclinics",
+  "version": "1.0.0",
+  "description": "Official website for Tavelvoetbal Clinics",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaibHassin/tafelvoetbalclinics.git"
+  },
+  "keywords": [
+    "tafelvoetbal",
+    "tafelvoetbal",
+    "huur",
+    "table",
+    "football",
+    "foosball",
+    "tafelvoetbal",
+    "rotterdam",
+    "tafelvoetbal",
+    "den",
+    "haag",
+    "tafelvoetbal",
+    "zuid",
+    "holland",
+    "tafelvoetbal",
+    "clinics",
+    "tafel",
+    "huur"
+  ],
+  "author": "Maib Hassin",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MaibHassin/tafelvoetbalclinics/issues"
+  },
+  "homepage": "https://github.com/MaibHassin/tafelvoetbalclinics#readme"
+}

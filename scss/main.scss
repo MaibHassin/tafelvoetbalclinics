@@ -1,0 +1,33 @@
+// Variables
+
+$primaryColor: rgb(69, 168, 95);
+$secondaryColor: rgb(51, 51, 51);
+
+// reset css
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--primary-font);
+    background-color: var(--bg-secondary-color);
+    color: var(--secondary-font-color);
+}
+
+// hide arrows in number input field
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
