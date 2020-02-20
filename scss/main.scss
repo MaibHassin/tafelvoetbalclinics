@@ -1,34 +1,17 @@
-// Variables
 
-// Colors
-$primaryColor: rgb(57, 150, 82);
-$secondaryColor: rgb(51, 51, 51);
-
-$whiteColor: rgb(255, 255, 255);
-
-$fontColor: rgb(255, 255, 255);
-$fontColor2: rgb(0, 0, 0);
-
-$basisColor: rgb(44, 124, 145);
-$uitgebriedColor: rgb(53, 158, 40);
-$toernooiColor: rgb(167, 41, 41);
-$extraCardColor: rgb(71, 32, 87);
-
-// Fonts
-$logoFont: 'Teko',
-sans-serif;
-$primaryFont: 'Roboto',
-sans-serif;
+@import "./variables";
+@import "./header";
+@import "./home";
+@import "./mainSection";
+@import "./footer";
 
 // reset css
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
     outline: none;
 }
-
 
 body {
     margin: 0;
@@ -37,6 +20,7 @@ body {
     color: $fontColor2;
 }
 
+
 // hide arrows in number input field
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -44,12 +28,51 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-
 input[type=number] {
     -moz-appearance: textfield;
 }
 
-@import "./header";
-@import "./home";
-@import "./mainSection";
-@import "./footer";
+
+// Back to top button
+
+.back-to-top {
+    position: fixed;
+    bottom: -7px;
+    right: 0.5em;
+    z-index: 99;
+
+    a {
+        text-decoration: none;
+        color: rgba(255, 43, 68, 0.70);
+    }
+}
+
+// Cookie banner
+.cookies-banner {
+    position: fixed;
+    bottom: 0;
+    background-color: $secondaryColor;
+    z-index: 10;
+    padding: 10px 4px;
+    text-align: center;
+    color: #fff;
+    transition: transform 100ms ease-in-out;
+
+    .cookies-banner-text,
+    .cookies-info-link {
+        display: inline;
+    }
+
+    .cookies-info-link {
+        a {
+            color: $primaryColor;
+        }
+    }
+
+    .cookies-accept-button {
+        background-color: rgb(211, 155, 12);
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
+}
