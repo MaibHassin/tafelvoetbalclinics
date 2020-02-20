@@ -1,0 +1,14 @@
+// Footer //
+
+footer {
+    background-color: $secondaryColor;
+    color: $fontColor;
+    padding: 1.5em;
+    padding-bottom: 0;
+    text-align: center;
+
+    a {
+        color: $fontColor;
+        font-size: 0.75em;
+    }
+}
