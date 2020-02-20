@@ -150,12 +150,12 @@ $('a[href*="#"]')
 
     // Beat the pro tooltip
     // open popup
-    document.getElementById('btp-tooltip').onclick = () => {
+    document.getElementById('btp-tooltip-button').onclick = () => {
       document.getElementById('btp-popup-container').style.transform = 'scale(1)';
     }
 
     //close popup
-    document.getElementById('close-btp-popup').onclick = () => {
+    document.getElementById('btp-popup-close').onclick = () => {
       document.getElementById('btp-popup-container').style.transform = 'scale(0)';
     }
 

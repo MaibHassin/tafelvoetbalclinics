@@ -1,0 +1,22 @@
+// Main
+
+main {
+    section {
+        min-height: 100vh;
+
+        .section-heading {
+            color: $fontColor;
+            background-color: $primaryColor;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        article {
+            padding: 25px;
+
+            .article-heading {
+                color: $primaryColor;
+            }
+        }
+    }
+}

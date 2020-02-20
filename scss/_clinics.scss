@@ -1,0 +1,203 @@
+// Clinics //
+
+@mixin priceCardBasics($cardColor) {
+    background-color: $cardColor;
+
+    .package-price {
+        color: $cardColor;
+    }
+}
+
+
+#clinics {
+    .clinics-packages {
+        .package-card {
+            color: $fontColor;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            margin: 15px auto;
+            border-radius: 5px;
+            width: 90%;
+
+            .prices {
+                background-color: $whiteColor;
+                color: $fontColor2;
+                width: 130px;
+                height: 130px;
+                border-radius: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .package-price {
+                    font-size: 3em;
+
+                    .euro-symbol {
+                        font-size: .5em;
+                        vertical-align: super;
+                    }
+                }
+            }
+
+            .package-heading {
+                border-top: 2px solid $whiteColor;
+                border-bottom: 2px solid $whiteColor;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            ul {
+                list-style: square;
+
+                li {
+                    line-height: 25px;
+                }
+            }
+
+            .package-features {
+                padding: 0;
+            }
+
+            .buy-package-button {
+                text-decoration: none;
+                font-weight: bold;
+                color: var(--primary-font-color);
+                background-color: rgb(255, 94, 0);
+                border-radius: 10px;
+                padding: 15px;
+            }
+
+            .package-extra-info {
+                font-size: .75em;
+            }
+        }
+
+        .package {
+            &-1 {
+                @include priceCardBasics($basisColor);
+            }
+
+            &-2 {
+                @include priceCardBasics($uitgebriedColor);
+
+                .package-1-addition {
+                    color: #fff;
+                    background-color: $basisColor;
+                    width: 100%;
+                    padding: 10px;
+                    display: flex;
+                    position: relative;
+                    justify-content: center;
+                    align-items: center;
+
+                    &-extra {
+                        font-size: 0.75em;
+                        position: absolute;
+                        left: 10px;
+                    }
+
+                    &-basis {
+                        font-size: 1.25em;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            &-3 {
+                @include priceCardBasics($toernooiColor);
+
+                &-feature {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 40px;
+
+                    .beat-the-pro-feature {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        padding-bottom: 20px;
+
+                        &-text {
+                            font-size: 1.75em;
+                            font-weight: bold;
+                            color: silver;
+                            text-shadow: 0 0 10px #FFF, 0 0 30px #fff, 5px 6px 1px rgba(212, 175, 55, 0);
+                        }
+
+                        &-tooltip {
+                            position: absolute;
+                            right: -30px;
+
+                            .btp-tooltip-button:active {
+                                color: rgb(187, 57, 57);
+                            }
+                        }
+                    }
+
+                }
+
+                .btp-popup-container {
+                    position: fixed;
+                    top: 0;
+                    height: 100vh;
+                    background: rgba(0,0,0,0);
+                    transform: scale(0);
+                    transition: transform 150ms ease-in-out;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 100;
+
+                    .btp-popup {
+                        background-color: $whiteColor;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5%;
+                        margin: 5%;
+                        border-radius: 5px;
+                        border: 2px solid rgba(0, 0, 0, 0.2);
+                        border-radius: 5px;
+
+                        &-close {
+                            color: rgb(187, 57, 57);
+
+                            &:active {
+                                color: $whiteColor;
+                            }
+                        }
+
+                        &-heading {
+                            color: $primaryColor;
+                        }
+
+                        &-text {
+                            color: $primaryColor;
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+
+            &-n {
+                @include priceCardBasics($extraCardColor);
+
+                &1-feature {
+                    padding: 0 35px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

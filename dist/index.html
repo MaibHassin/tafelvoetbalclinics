@@ -177,8 +177,10 @@
                         <sub>per 2 uur</sub>
                     </div>
                     <h3 class="package-heading">UITGEBREID</h3>
-                    <div class="package-1-addition"><span class="package-1-addition-extra">Inclusief</span><span
-                            class="package-1-addition-basis">Basis</span></div>
+                    <div class="package-1-addition">
+                        <span class="package-1-addition-extra">Inclusief</span>
+                        <span class="package-1-addition-basis">Basis</span>
+                    </div>
                     <ul class="package-features">
                         <li>Strategie</li>
                         <li>Verdediging</li>
@@ -196,18 +198,18 @@
                     <h3 class="package-heading">TOERNOOI</h3>
                     <div class="package-3-feature">
                         <div>Inclusief een</div>
-                        <div class="beat-the-pro-feature-text">
-                            <div class="beat-the-pro">Beat The Pro</div>
-                            <div class="btp-tt-container">
-                                <i id="btp-tooltip" class="fas fa-question-circle btp-tooltip"></i> 
+                        <div class="beat-the-pro-feature">
+                            <div class="beat-the-pro-feature-text">Beat The Pro</div>
+                            <div class="beat-the-pro-feature-tooltip">
+                                <i id="btp-tooltip-button" class="fas fa-question-circle btp-tooltip-button"></i>
                             </div>
                         </div>
                     </div>
                     <div id="btp-popup-container" class="btp-popup-container">
                         <div class="btp-popup">
-                            <i id="close-btp-popup" class="fas fa-times-circle fa-2x close-btp-popup"></i>
-                            <h3 class="popup-btp-heading">Beat The Pro</h3>
-                            <p class="popup-btp-text">Ben je klaar voor de uitdaging? Spelen tegen de kampioen van
+                            <i id="btp-popup-close" class="fas fa-times-circle fa-2x btp-popup-close"></i>
+                            <h3 class="btp-popup-heading">Beat The Pro</h3>
+                            <p class="btp-popup-text">Ben je klaar voor de uitdaging? Spelen tegen de kampioen van
                                 Nederland en een voormalig wereldkampioen?.</p>
                         </div>
                     </div>
@@ -225,8 +227,10 @@
                     </div>
                     <h3 class="package-heading">Beat The Pro</h3>
                     <div class="package-n1-feature">
-                        <p>Durf jij de uitdaging aan? Spelen tegen de kampioen van Nederland en een ex-wereldkampioen? Boek
-                            mij nu voor een Beat the Pro en geef uw event een super twist. Ook zeer geschikt voor beurzen om
+                        <p>Durf jij de uitdaging aan? Spelen tegen de kampioen van Nederland en een ex-wereldkampioen?
+                            Boek
+                            mij nu voor een Beat the Pro en geef uw event een super twist. Ook zeer geschikt voor
+                            beurzen om
                             daar met een tafelvoetbal aanwezig te zijn met mij erbij om het ijs alvast te breken voor
                             potentiële klanten.</p>
                     </div>
@@ -243,8 +247,10 @@
                 <h3 class="article-heading">Een professionele en offici&eumlle wedstrijdtafel huren?</h3>
                 <p class="article-text">Dit is mogelijk via het bedrijf Tafelvoetbal Nederland. Huur hier uw
                     professionele tafelvoetbaltafel voor de scherpste tarieven van Nederland.</p>
-                <div class="tnl-external-link"><a href="https://www.tafelvoetbal-nederland.nl/" target="_blank"> <i
-                            class="fas fa-external-link-alt"></i> Tafelvoetbal Nederland</a></div>
+                <div class="tnl-external-link">
+                    <a href="https://www.tafelvoetbal-nederland.nl/" target="_blank"> <i
+                            class="fas fa-external-link-alt"></i> Tafelvoetbal Nederland</a>
+                </div>
                 <div class="tnl-brands">
                     <p>Beschikbare merken:</p>
                     <div class="tnl-brands-images">
@@ -330,15 +336,16 @@
                         </select>
                     </div>
                 </div>
-                
+
                 <div class="form-message-container contact-form-field">
                     <label for="message">Bericht</label>
                     <textarea name="bericht" id="message" cols="20" rows="10"></textarea>
                 </div>
-                
+
                 <div class="form-terms-container contact-form-field">
                     <input type="checkbox" name="terms" id="terms">
-                    <label for="terms">Ik ga akkoord met alle algemene <a href="/voorwaarden.html" target="_blank">voorwaarden</a></label>
+                    <label for="terms">Ik ga akkoord met alle algemene <a href="voorwaarden.html"
+                            target="_blank">voorwaarden</a></label>
                 </div>
 
                 <input id="send-button" type="submit" value="VERSTUUR" disabled>

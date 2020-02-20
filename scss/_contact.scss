@@ -1,0 +1,119 @@
+// Contact //
+
+@mixin formFieldsBasic {
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#contact {
+    background: $primaryColor;
+    color: $fontColor;
+    padding-bottom: 1.5em;
+    
+    form {
+        padding: 0 10%;
+        
+        input:not([type='checkbox']) {
+            @include formFieldsBasic();
+            height: 2em;
+            font-size: 1.5em;
+            margin: 5px auto;
+            padding-left: 5px;
+        }
+        
+        textarea {
+            @include formFieldsBasic();
+            resize: vertical;
+            padding-left: 5px;
+            padding-top: 5px;
+            font-size: 1.25em;
+            margin: 5px auto;
+        }
+        
+        input[type='submit'] {
+            color: $fontColor;
+            background-color: $primaryColor;
+            border: 1px solid $whiteColor;
+            
+            &:disabled {
+                color: #ccc;
+                background-color: $secondaryColor;
+                border: $secondaryColor;
+            }
+        }
+
+        .contact-form-field:not(.form-message-container) {
+            padding-bottom: 10px;
+        }
+
+        .form-buy-option-container {
+            .buy-option {
+                padding: 10px 0;
+    
+                label {
+                    font-weight: bold;
+                }
+            }
+    
+            .select-option {
+                display: none;
+                padding-bottom: 10px;
+                justify-content: space-between;
+    
+                label {
+                    font-weight: bold;
+                }
+    
+                select {
+                    background: $whiteColor;
+                    border: none;
+                    font-size: 1.1em;
+                }
+    
+                .disabled-option {
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .form-terms-container {
+            a {
+                color: $whiteColor;
+            }
+        }
+    }
+
+    .contact-form-seperator {
+        width: 80%;
+        border: 1.5px solid;
+    }
+
+    .contact-info {
+        padding: 1em 10%;
+
+        a {
+            color: $fontColor;
+            padding-left: 1em;
+            margin-top: 0.5em;
+        }
+    }
+
+    .map {
+        text-align: center;
+
+        iframe {
+            height: 300px;
+            width: 80%;
+        }
+    }
+
+    .socials {
+        text-align: center;
+
+        a {
+            color: $fontColor;
+            padding: 0 0.5em;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+// Home Page //
+
+#home {
+    min-height: 100vh;
+
+    figure {
+        margin: 0;
+
+        .home-banner {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    article {
+        border-left: 5px solid $primaryColor;
+        margin-left: 15px;
+        margin-top: 50px;
+        padding: 0 25px;
+    }
+
+    .learn-more-container {
+        width: 100%;
+        display: flex;
+        margin-top: 4.5em;
+
+        .learn-more-button {
+            text-decoration: none;
+            background-color: $primaryColor;
+            margin: auto;
+            border: 2px solid $primaryColor;
+            color: $fontColor;
+            padding: 1em 6.5em;
+            border-radius: 10px;
+
+            &:active {
+                background-color: $secondaryColor;
+            }
+        }
+    }
+}
