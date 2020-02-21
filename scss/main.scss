@@ -50,6 +50,7 @@ input[type=number] {
 // Cookie banner
 .cookies-banner {
     position: fixed;
+    width: 100%;
     bottom: 0;
     background-color: $secondaryColor;
     z-index: 10;
@@ -74,5 +75,129 @@ input[type=number] {
         padding: 5px;
         border: none;
         border-radius: 5px;
+    }
+}
+
+@media (min-width: $breakpoint-largeScreens) {
+    // header
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: initial;
+        padding: 10px 1em;
+        padding-bottom: 0;
+
+        .nav-toggle, .nav-toggle-label, .nav-toggle-label-close-45, .nav-toggle-label-close-neg45 {
+            display: none;
+        }
+
+        .logo {
+            padding: 5px 0;
+        }
+
+
+        nav {
+            transform: scale(1,1);
+            z-index: 100;
+            width: initial;
+
+            ul {
+                display: flex;
+            }
+
+            a {
+                opacity: 1;
+                font-size: 1em;
+
+                &:hover {
+                    border-bottom: 1px solid;
+                    color: $fontColor2;
+                }
+            }
+        }
+    }
+
+    // Over mij
+
+    #overmij {
+        article {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+                "heading heading"
+                "about picture"
+                "video video";
+    
+            .article-heading {
+                grid-area: heading;
+            }
+    
+            .article-text-container {
+                grid-area: about;
+            }
+    
+            figure {
+                grid-area: picture;
+            }
+    
+            iframe {
+                grid-area: video;
+                height: 650px;
+            }
+        }
+    }
+
+    #clinics {
+        .clinics-packages {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "card1 card2 card3"
+                "more-cards more-cards more-cards"
+                ". cardN1 .";
+
+            .package-1 {
+                grid-area: card1;
+            }
+            
+            .package-2 {
+                grid-area: card2;
+            }
+            
+            .package-3 {
+                grid-area: card3;
+            }
+
+            .more-packages {
+                grid-area: more-cards;
+                color: $primaryColor;
+            }
+
+            .package-n {
+                grid-area: cardN1;
+            }
+        }
+    }
+
+    #verhuur {
+        min-height: initial;
+
+        .tnl-brands-images {
+            flex-direction: row;
+        }
+    }
+
+    #evenementen {
+        min-height: initial;
+    }
+
+    #referenties {
+        min-height: initial;
+
+        .ref-images-gallery {
+            display: flex;
+        }
     }
 }
