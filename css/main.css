@@ -1,1 +1,799 @@
-header{background:#399652;text-align:center;width:100%;height:80px;z-index:10;top:0}header .logo{font-family:"Teko",sans-serif;color:#fff;margin:0;padding-top:16px}header nav{text-align:left;top:0;left:0;padding-bottom:5px;background:#399652;width:100%;transform:scale(1, 0);transform-origin:top;transition:transform 400ms ease-in-out}header nav ul{margin:0;padding:0;list-style:none}header nav ul li{margin-bottom:1em;margin-left:1em}header nav a{color:#fff;text-decoration:none;font-size:1.2rem;text-transform:uppercase;opacity:0;transition:opacity 150ms ease-in-out}header .nav-toggle{display:none}header .nav-toggle:checked ~ nav{transform:scale(1, 1)}header .nav-toggle:checked ~ nav a{opacity:1;transition:opacity 250ms ease-in-out 250ms}header .nav-toggle:checked ~ .nav-toggle-label span{opacity:0;transition:opacity 250ms ease-in-out 270ms}header .nav-toggle:checked ~ .nav-toggle-label span::before,header .nav-toggle:checked ~ .nav-toggle-label span::after{transform:translateY(0px);transition:transform 250ms ease-in-out}header .nav-toggle:checked ~ .nav-toggle-label-close-45 span{transform:rotate(45deg);transition:transform 250ms ease-in-out 280ms}header .nav-toggle:checked ~ .nav-toggle-label-close-neg45 span{transform:rotate(-45deg);transition:transform 250ms ease-in-out 280ms}header .nav-toggle-label{position:absolute;top:2em;left:-5px;margin-left:1em;height:3%}header .nav-toggle-label span{display:block;height:4px;width:2em;border-radius:4px;position:relative;background-color:#fff;opacity:1;transition:opacity 350ms ease-in-out}header .nav-toggle-label span::before{display:block;height:4px;width:2em;border-radius:4px;position:relative;background-color:#fff;content:'';position:absolute;transform:translateY(-9px);transition:transform 250ms ease-in-out 250ms}header .nav-toggle-label span::after{display:block;height:4px;width:2em;border-radius:4px;position:relative;background-color:#fff;content:'';position:absolute;transform:translateY(9px);transition:transform 250ms ease-in-out 250ms}header .nav-toggle-label-close-45{position:absolute;top:2em;left:-5px;margin-left:1em;height:3%}header .nav-toggle-label-close-45 span{display:block;height:4px;width:2em;border-radius:4px;position:relative;background-color:#fff;transform:rotate(0deg);transition:transform 250ms ease-in-out}header .nav-toggle-label-close-neg45{position:absolute;top:2em;left:-5px;margin-left:1em;height:3%}header .nav-toggle-label-close-neg45 span{display:block;height:4px;width:2em;border-radius:4px;position:relative;background-color:#fff;transform:rotate(0deg);transition:transform 250ms ease-in-out}#home{min-height:100vh}#home figure{margin:0}#home figure .home-banner{width:100%;height:auto}#home article{border-left:5px solid #399652;margin-left:15px;margin-top:50px;padding:0 25px}#home .learn-more-container{width:100%;display:flex;margin-top:4.5em}#home .learn-more-container .learn-more-button{text-decoration:none;background-color:#399652;margin:auto;border:2px solid #399652;color:#fff;padding:1em 6.5em;border-radius:10px}#home .learn-more-container .learn-more-button:active{background-color:#333}main section{min-height:100vh}main section .section-heading{color:#fff;background-color:#399652;text-align:center;padding:1em 0}main section article{padding:25px}main section article .article-heading{color:#399652}#overmij .article-heading{text-align:center}#overmij img{height:auto;width:100%}#overmij iframe{height:200px}#clinics .clinics-packages .package-card{color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:15px 0;margin:15px auto;border-radius:5px;width:90%}#clinics .clinics-packages .package-card .prices{background-color:#fff;color:#000;width:130px;height:130px;border-radius:100px;display:flex;flex-direction:column;align-items:center;justify-content:center}#clinics .clinics-packages .package-card .prices .package-price{font-size:3em}#clinics .clinics-packages .package-card .prices .package-price .euro-symbol{font-size:.5em;vertical-align:super}#clinics .clinics-packages .package-card .package-heading{border-top:2px solid #fff;border-bottom:2px solid #fff;width:100%;display:flex;align-items:center;justify-content:center;padding:10px}#clinics .clinics-packages .package-card ul{list-style:square}#clinics .clinics-packages .package-card ul li{line-height:25px}#clinics .clinics-packages .package-card .package-features{padding:0}#clinics .clinics-packages .package-card .buy-package-button{text-decoration:none;font-weight:bold;color:var(--primary-font-color);background-color:#ff5e00;border-radius:10px;padding:15px}#clinics .clinics-packages .package-card .package-extra-info{font-size:.75em}#clinics .clinics-packages .package-1{background-color:#2c7c91}#clinics .clinics-packages .package-1 .package-price{color:#2c7c91}#clinics .clinics-packages .package-2{background-color:#359e28}#clinics .clinics-packages .package-2 .package-price{color:#359e28}#clinics .clinics-packages .package-2 .package-1-addition{color:#fff;background-color:#2c7c91;width:100%;padding:10px;display:flex;position:relative;justify-content:center;align-items:center}#clinics .clinics-packages .package-2 .package-1-addition-extra{font-size:0.75em;position:absolute;left:10px}#clinics .clinics-packages .package-2 .package-1-addition-basis{font-size:1.25em;font-weight:bold}#clinics .clinics-packages .package-3{background-color:#a72929}#clinics .clinics-packages .package-3 .package-price{color:#a72929}#clinics .clinics-packages .package-3-feature{display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:40px}#clinics .clinics-packages .package-3-feature .beat-the-pro-feature{display:flex;justify-content:center;align-items:center;position:relative;padding-bottom:20px}#clinics .clinics-packages .package-3-feature .beat-the-pro-feature-text{font-size:1.75em;font-weight:bold;color:silver;text-shadow:0 0 10px #fff,0 0 30px #fff,5px 6px 1px rgba(212,175,55,0)}#clinics .clinics-packages .package-3-feature .beat-the-pro-feature-tooltip{position:absolute;right:-30px}#clinics .clinics-packages .package-3-feature .beat-the-pro-feature-tooltip .btp-tooltip-button:active{color:#bb3939}#clinics .clinics-packages .package-3 .btp-popup-container{position:fixed;top:0;height:100vh;background:rgba(0,0,0,0);transform:scale(0);transition:transform 150ms ease-in-out;display:flex;align-items:center;justify-content:center;z-index:100}#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup{background-color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:5%;margin:5%;border-radius:5px;border:2px solid rgba(0,0,0,0.2);border-radius:5px}#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-close{color:#bb3939}#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-close:active{color:#fff}#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-heading{color:#399652}#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-text{color:#399652;text-align:justify}#clinics .clinics-packages .package-n{background-color:#472057}#clinics .clinics-packages .package-n .package-price{color:#472057}#clinics .clinics-packages .package-n1-feature{padding:0 35px;text-align:justify}#verhuur .tnl-external-link{text-align:center;margin-top:50px}#verhuur .tnl-external-link a{text-decoration:none;background-color:#333;color:#fff;padding:10px;border-radius:10px}#verhuur .tnl-brands{display:flex;flex-direction:column;align-items:center;margin-top:50px}#verhuur .tnl-brands-images{display:flex;flex-direction:column;align-items:center}#verhuur .tnl-brands-images figure{margin:0;width:30%}#verhuur .tnl-brands-images figure img{height:auto;width:80%;margin:10px auto}#referenties figure{text-align:center;margin:0}#referenties figure img{height:auto;width:60%;margin:25px auto}#contact{background:#399652;color:#fff;padding-bottom:1.5em}#contact form{padding:0 10%}#contact form input:not([type='checkbox']){width:100%;border:none;border-radius:0.5em;height:2em;font-size:1.5em;margin:5px auto;padding-left:5px}#contact form textarea{width:100%;border:none;border-radius:0.5em;resize:vertical;padding-left:5px;padding-top:5px;font-size:1.25em;margin:5px auto}#contact form input[type='submit']{color:#fff;background-color:#399652;border:1px solid #fff}#contact form input[type='submit']:disabled{color:#ccc;background-color:#333;border:#333}#contact form .contact-form-field:not(.form-message-container){padding-bottom:10px}#contact form .form-buy-option-container .buy-option{padding:10px 0}#contact form .form-buy-option-container .buy-option label{font-weight:bold}#contact form .form-buy-option-container .select-option{display:none;padding-bottom:10px;justify-content:space-between}#contact form .form-buy-option-container .select-option label{font-weight:bold}#contact form .form-buy-option-container .select-option select{background:#fff;border:none;font-size:1.1em}#contact form .form-buy-option-container .select-option .disabled-option{font-weight:bold}#contact form .form-terms-container a{color:#fff}#contact .contact-form-seperator{width:80%;border:1.5px solid}#contact .contact-info{padding:1em 10%}#contact .contact-info a{color:#fff;padding-left:1em;margin-top:0.5em}#contact .map{text-align:center}#contact .map iframe{height:300px;width:80%}#contact .socials{text-align:center}#contact .socials a{color:#fff;padding:0 0.5em}footer{background-color:#333;color:#fff;padding:1.5em;padding-bottom:0;text-align:center}footer a{color:#fff;font-size:0.75em}*,*::before,*::after{box-sizing:border-box;outline:none}body{margin:0;font-family:"Roboto",sans-serif;background-color:#fff;color:#000}input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}input[type=number]{-moz-appearance:textfield}.back-to-top{position:fixed;bottom:-7px;right:0.5em;z-index:99}.back-to-top a{text-decoration:none;color:rgba(255,43,68,0.7)}.cookies-banner{position:fixed;width:100%;bottom:0;background-color:#333;z-index:10;padding:10px 4px;text-align:center;color:#fff;transition:transform 100ms ease-in-out}.cookies-banner .cookies-banner-text,.cookies-banner .cookies-info-link{display:inline}.cookies-banner .cookies-info-link a{color:#399652}.cookies-banner .cookies-accept-button{background-color:#d39b0c;padding:5px;border:none;border-radius:5px}@media (min-width: 720px){header{display:flex;flex-direction:column;justify-content:space-between;align-items:center;height:initial;padding:10px 1em;padding-bottom:0}header .nav-toggle,header .nav-toggle-label,header .nav-toggle-label-close-45,header .nav-toggle-label-close-neg45{display:none}header .logo{padding:5px 0}header nav{transform:scale(1, 1);z-index:100;width:initial}header nav ul{display:flex}header nav a{opacity:1;font-size:1em}header nav a:hover{border-bottom:1px solid;color:#000}#overmij article{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"heading heading" "about picture" "video video"}#overmij article .article-heading{grid-area:heading}#overmij article .article-text-container{grid-area:about}#overmij article figure{grid-area:picture}#overmij article iframe{grid-area:video;height:650px}#clinics .clinics-packages{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-areas:"card1 card2 card3" "more-cards more-cards more-cards" ". cardN1 ."}#clinics .clinics-packages .package-1{grid-area:card1}#clinics .clinics-packages .package-2{grid-area:card2}#clinics .clinics-packages .package-3{grid-area:card3}#clinics .clinics-packages .more-packages{grid-area:more-cards;color:#399652}#clinics .clinics-packages .package-n{grid-area:cardN1}#verhuur{min-height:initial}#verhuur .tnl-brands-images{flex-direction:row}#evenementen{min-height:initial}#referenties{min-height:initial}#referenties .ref-images-gallery{display:flex}}
+header {
+  background: #399652;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  top: 0
+}
+
+header .logo {
+  font-family: "Teko", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding-top: 16px
+}
+
+header nav {
+  text-align: left;
+  top: 0;
+  left: 0;
+  padding-bottom: 5px;
+  background: #399652;
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+header nav ul li {
+  margin-bottom: 1em;
+  margin-left: 1em
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out
+}
+
+header .nav-toggle {
+  display: none
+}
+
+header .nav-toggle:checked~nav {
+  transform: scale(1, 1)
+}
+
+header .nav-toggle:checked~nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms
+}
+
+header .nav-toggle:checked~.nav-toggle-label span {
+  opacity: 0;
+  transition: opacity 250ms ease-in-out 270ms
+}
+
+header .nav-toggle:checked~.nav-toggle-label span::before,
+header .nav-toggle:checked~.nav-toggle-label span::after {
+  transform: translateY(0px);
+  transition: transform 250ms ease-in-out
+}
+
+header .nav-toggle:checked~.nav-toggle-label-close-45 span {
+  transform: rotate(45deg);
+  transition: transform 250ms ease-in-out 280ms
+}
+
+header .nav-toggle:checked~.nav-toggle-label-close-neg45 span {
+  transform: rotate(-45deg);
+  transition: transform 250ms ease-in-out 280ms
+}
+
+header .nav-toggle-label {
+  position: absolute;
+  top: 2em;
+  left: -5px;
+  margin-left: 1em;
+  height: 3%
+}
+
+header .nav-toggle-label span {
+  display: block;
+  height: 4px;
+  width: 2em;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  opacity: 1;
+  transition: opacity 350ms ease-in-out
+}
+
+header .nav-toggle-label span::before {
+  display: block;
+  height: 4px;
+  width: 2em;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  transform: translateY(-9px);
+  transition: transform 250ms ease-in-out 250ms
+}
+
+header .nav-toggle-label span::after {
+  display: block;
+  height: 4px;
+  width: 2em;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  transform: translateY(9px);
+  transition: transform 250ms ease-in-out 250ms
+}
+
+header .nav-toggle-label-close-45 {
+  position: absolute;
+  top: 2em;
+  left: -5px;
+  margin-left: 1em;
+  height: 3%
+}
+
+header .nav-toggle-label-close-45 span {
+  display: block;
+  height: 4px;
+  width: 2em;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  transform: rotate(0deg);
+  transition: transform 250ms ease-in-out
+}
+
+header .nav-toggle-label-close-neg45 {
+  position: absolute;
+  top: 2em;
+  left: -5px;
+  margin-left: 1em;
+  height: 3%
+}
+
+header .nav-toggle-label-close-neg45 span {
+  display: block;
+  height: 4px;
+  width: 2em;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  transform: rotate(0deg);
+  transition: transform 250ms ease-in-out
+}
+
+#home {
+  min-height: 100vh
+}
+
+#home figure {
+  margin: 0
+}
+
+#home .home-banner-img {
+  background: url(../images/tafelvoetbalclinics-landing-page-image.jpg);
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#home article {
+  border-left: 5px solid #399652;
+  margin-left: 15px;
+  margin-top: 50px;
+  padding: 0 25px
+}
+
+#home .learn-more-container {
+  width: 100%;
+  display: flex;
+  margin-top: 4.5em
+}
+
+#home .learn-more-container .learn-more-button {
+  text-decoration: none;
+  background-color: #399652;
+  margin: auto;
+  border: 2px solid #399652;
+  color: #fff;
+  padding: 1em 6.5em;
+  border-radius: 10px
+}
+
+#home .learn-more-container .learn-more-button:active {
+  background-color: #333
+}
+
+#home .warrior-ads {
+  text-align: center;
+}
+
+#home .warrior-ads img {
+  width: 70%;
+  margin: 10px;
+}
+
+main section {
+  min-height: 100vh
+}
+
+main section .section-heading {
+  color: #fff;
+  background-color: #399652;
+  text-align: center;
+  padding: 1em 0
+}
+
+main section article {
+  padding: 25px
+}
+
+main section article .article-heading {
+  color: #399652
+}
+
+#overmij .article-heading {
+  text-align: center
+}
+
+#overmij img {
+  height: auto;
+  width: 100%
+}
+
+#overmij iframe {
+  height: 200px
+}
+
+#clinics .clinics-packages .package-card {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  margin: 15px auto;
+  border-radius: 5px;
+  width: 90%
+}
+
+#clinics .clinics-packages .package-card .prices {
+  background-color: #fff;
+  color: #000;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+#clinics .clinics-packages .package-card .prices .package-price {
+  font-size: 3em
+}
+
+#clinics .clinics-packages .package-card .prices .package-price .euro-symbol {
+  font-size: .5em;
+  vertical-align: super
+}
+
+#clinics .clinics-packages .package-card .package-heading {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25em;
+  align-items: center;
+  justify-content: center;
+  padding: 10px
+}
+
+#clinics .clinics-packages .package-card ul {
+  list-style: square
+}
+
+#clinics .clinics-packages .package-card ul li {
+  line-height: 25px
+}
+
+#clinics .clinics-packages .package-card .package-features {
+  padding: 0
+}
+
+#clinics .clinics-packages .package-card .buy-package-button {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-font-color);
+  background-color: #ff5e00;
+  border-radius: 10px;
+  padding: 15px
+}
+
+#clinics .clinics-packages .package-card .package-extra-info {
+  font-size: .75em
+}
+
+#clinics .clinics-packages .package-1 {
+  background-color: #2c7c91
+}
+
+#clinics .clinics-packages .package-1 .package-price {
+  color: #2c7c91
+}
+
+#clinics .clinics-packages .package-2 {
+  background-color: #359e28
+}
+
+#clinics .clinics-packages .package-2 .package-price {
+  color: #359e28
+}
+
+#clinics .clinics-packages .package-2 .package-1-addition {
+  color: #fff;
+  background-color: #2c7c91;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center
+}
+
+#clinics .clinics-packages .package-2 .package-1-addition-extra {
+  font-size: 0.75em;
+  position: absolute;
+  left: 10px
+}
+
+#clinics .clinics-packages .package-2 .package-1-addition-basis {
+  font-size: 1.25em;
+  font-weight: bold
+}
+
+#clinics .clinics-packages .package-3 {
+  background-color: #a72929
+}
+
+#clinics .clinics-packages .package-3 .package-price {
+  color: #a72929
+}
+
+#clinics .clinics-packages .package-3-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 40px
+}
+
+#clinics .clinics-packages .package-3-feature .beat-the-pro-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px
+}
+
+#clinics .clinics-packages .package-3-feature .beat-the-pro-feature-text {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: silver;
+  text-shadow: 0 0 10px #fff, 0 0 30px #fff, 5px 6px 1px rgba(212, 175, 55, 0)
+}
+
+#clinics .clinics-packages .package-3-feature .beat-the-pro-feature-tooltip {
+  position: absolute;
+  right: -30px
+}
+
+#clinics .clinics-packages .package-3-feature .beat-the-pro-feature-tooltip .btp-tooltip-button:active {
+  color: #bb3939
+}
+
+#clinics .clinics-packages .package-3 .btp-popup-container {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0);
+  transform: scale(0);
+  transition: transform 150ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100
+}
+
+#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px
+}
+
+#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-close {
+  color: #bb3939
+}
+
+#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-close:active {
+  color: #fff
+}
+
+#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-heading {
+  color: #399652
+}
+
+#clinics .clinics-packages .package-3 .btp-popup-container .btp-popup-text {
+  color: #399652;
+  text-align: justify
+}
+
+#clinics .clinics-packages .package-n {
+  background-color: #472057
+}
+
+#clinics .clinics-packages .package-n .package-price {
+  color: #472057
+}
+
+#clinics .clinics-packages .package-n1-feature {
+  padding: 0 35px;
+  text-align: justify
+}
+
+#verhuur .tnl-external-link {
+  text-align: center;
+  margin-top: 50px
+}
+
+#verhuur .tnl-external-link a {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px
+}
+
+#verhuur .tnl-brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px
+}
+
+#verhuur .tnl-brands-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+#verhuur .tnl-brands-images figure {
+  margin: 0;
+  width: 30%
+}
+
+#verhuur .tnl-brands-images figure img {
+  height: auto;
+  width: 80%;
+  margin: 10px auto
+}
+
+#referenties figure {
+  text-align: center;
+  margin: 0
+}
+
+#referenties figure img {
+  height: auto;
+  width: 60%;
+  margin: 25px auto
+}
+
+#contact {
+  background: #399652;
+  color: #fff;
+  padding-bottom: 1.5em
+}
+
+#contact form {
+  padding: 0 10%
+}
+
+#contact form input:not([type='checkbox']) {
+  width: 100%;
+  border: none;
+  border-radius: 0.5em;
+  height: 2em;
+  font-size: 1.5em;
+  margin: 5px auto;
+  padding-left: 5px
+}
+
+#contact form textarea {
+  width: 100%;
+  border: none;
+  border-radius: 0.5em;
+  resize: vertical;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 1.25em;
+  margin: 5px auto
+}
+
+#contact form input[type='submit'] {
+  color: #fff;
+  background-color: #399652;
+  border: 1px solid #fff
+}
+
+#contact form input[type='submit']:disabled {
+  color: #ccc;
+  background-color: #333;
+  border: #333
+}
+
+#contact form .contact-form-field:not(.form-message-container) {
+  padding-bottom: 10px
+}
+
+#contact form .form-buy-option-container .buy-option {
+  padding: 10px 0
+}
+
+#contact form .form-buy-option-container .buy-option label {
+  font-weight: bold
+}
+
+#contact form .form-buy-option-container .select-option {
+  display: none;
+  padding-bottom: 10px;
+  justify-content: space-between
+}
+
+#contact form .form-buy-option-container .select-option label {
+  font-weight: bold
+}
+
+#contact form .form-buy-option-container .select-option select {
+  background: #fff;
+  border: none;
+  font-size: 1.1em
+}
+
+#contact form .form-buy-option-container .select-option .disabled-option {
+  font-weight: bold
+}
+
+#contact form .form-terms-container a {
+  color: #fff
+}
+
+#contact .contact-form-seperator {
+  width: 80%;
+  border: 1.5px solid
+}
+
+#contact .contact-info {
+  padding: 1em 10%
+}
+
+#contact .contact-info a {
+  color: #fff;
+  padding-left: 1em;
+  margin-top: 0.5em
+}
+
+#contact .map {
+  text-align: center
+}
+
+#contact .map iframe {
+  height: 300px;
+  width: 80%
+}
+
+#contact .socials {
+  text-align: center
+}
+
+#contact .socials a {
+  color: #fff;
+  padding: 0 0.5em
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1.5em;
+  padding-bottom: 0;
+  text-align: center
+}
+
+footer a {
+  color: #fff;
+  font-size: 0.75em
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #000
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+
+input[type=number] {
+  -moz-appearance: textfield
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: -7px;
+  right: 0.5em;
+  z-index: 99
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: rgba(255, 43, 68, 0.7)
+}
+
+.cookies-banner {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #333;
+  z-index: 10;
+  padding: 10px 4px;
+  text-align: center;
+  color: #fff;
+  transition: transform 100ms ease-in-out
+}
+
+.cookies-banner .cookies-banner-text,
+.cookies-banner .cookies-info-link {
+  display: inline
+}
+
+.cookies-banner .cookies-info-link a {
+  color: #399652
+}
+
+.cookies-banner .cookies-accept-button {
+  background-color: #d39b0c;
+  padding: 5px;
+  border: none;
+  border-radius: 5px
+}
+
+@media (min-width: 720px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: initial;
+    padding: 10px 1em;
+    padding-bottom: 0
+  }
+
+  header .nav-toggle,
+  header .nav-toggle-label,
+  header .nav-toggle-label-close-45,
+  header .nav-toggle-label-close-neg45 {
+    display: none
+  }
+
+  header .logo {
+    padding: 5px 0
+  }
+
+  header nav {
+    transform: scale(1, 1);
+    z-index: 100;
+    width: initial
+  }
+
+  header nav ul {
+    display: flex
+  }
+
+  header nav a {
+    opacity: 1;
+    font-size: 1em
+  }
+
+  header nav a:hover {
+    border-bottom: 1px solid;
+    color: #000
+  }
+
+  #home .warrior-ads img {
+    width: 35%;
+  }
+
+  #overmij article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "heading heading""about picture""video video"
+  }
+
+  #overmij article .article-heading {
+    grid-area: heading
+  }
+
+  #overmij article .article-text-container {
+    grid-area: about
+  }
+
+  #overmij article figure {
+    grid-area: picture;
+  }
+
+  #overmij article iframe {
+    grid-area: video;
+    height: 650px
+  }
+
+  #clinics .clinics-packages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "card1 card2 card3""more-cards more-cards more-cards"". cardN1 ."
+  }
+
+  #clinics .clinics-packages .package-3 {
+    grid-area: card2
+  }
+
+  #clinics .clinics-packages .more-packages {
+    grid-area: more-cards;
+    color: #399652
+  }
+
+  #clinics .clinics-packages .package-n {
+    grid-area: cardN1
+  }
+
+  #verhuur {
+    min-height: initial
+  }
+
+  #verhuur .tnl-brands-images {
+    flex-direction: row
+  }
+
+  #evenementen {
+    min-height: initial
+  }
+
+  #referenties {
+    min-height: initial
+  }
+
+  #referenties .ref-images-gallery {
+    display: flex
+  }
+}
