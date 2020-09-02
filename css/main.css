@@ -245,7 +245,8 @@ main section article .article-heading {
 }	
 
 #overmij iframe {	
-  height: 200px	
+  width: 100%;
+  height: 200px;
 }	
 
 #clinics .clinics-packages .package-card {	
@@ -736,9 +737,11 @@ input[type=number] {
   }	
 
   #overmij article {	
-    display: grid;	
+    display: grid;
     grid-template-columns: 1fr 1fr;	
-    grid-template-areas: "heading heading""about picture""video video"	
+    grid-template-areas: "heading heading"
+                         "about picture"
+                         "video video"	
   }	
 
   #overmij article .article-heading {	
@@ -750,12 +753,13 @@ input[type=number] {
   }	
 
   #overmij article figure {	
-    grid-area: picture;	
+    grid-area: picture;
+    max-height: 500px;
   }	
 
   #overmij article iframe {	
     grid-area: video;	
-    height: 650px	
+    height: 400px;
   }	
 
   #clinics .clinics-packages {	
